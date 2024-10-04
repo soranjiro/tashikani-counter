@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar {
+  background-color: #444;
+  overflow: hidden;
+  border-bottom: 2px solid #61dafb;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #61dafb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.navbar li a:hover {
+  background-color: #333;
+}
+
+.team-name {
+  color: #61dafb;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+}

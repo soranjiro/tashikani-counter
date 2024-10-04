@@ -1,0 +1,10 @@
+/* src/css/ReceivedAttacks.css */
+.most-attacked-row {
+  background-color: #ff0000; /* 赤色の背景 */
+}
+
+/* 攻撃データベースの行にカーソルを当てたときのスタイル */
+table tbody tr:hover {
+  background-color: #9bcbffca; /* カーソルを当てたときの背景色 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}

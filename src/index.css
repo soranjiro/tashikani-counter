@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #61dafb;
+}
+
+button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #333;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #444;
+}
+
+/* ホーム画面のデザイン */
+.title {
+  color: #61dafb;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.instructions {
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #61dafb;
+}
+
+.instructions h2 {
+  color: #61dafb;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.instructions p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instructions ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+}
+
+.instructions li::marker {
+  color: #61dafb;
+}
+
+.team-login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.team-login input {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+  background-color: #282c34;
+}
+
+.team-login button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.team-login button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-button {
+  margin-top: 10px;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* GitHubアイコンのスタイル */
+.github-icon {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.github-icon a {
+  color: #61dafb;
+  transition: color 0.3s;
+}
+
+.github-icon a:hover {
+  color: #21a1f1;
+}
+
+.slack-icon {
+  margin-left: 30px;
+}

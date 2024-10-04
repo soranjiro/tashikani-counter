@@ -1,0 +1,56 @@
+.container {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.user-card {
+  background-color: #1e1e1e;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+  color: #ffffff;
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+
+.user-card:hover {
+  background-color: #9bcbffca; /* カーソルを当てたときの背景色 */
+}
