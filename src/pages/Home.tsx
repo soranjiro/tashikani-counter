@@ -118,7 +118,7 @@ const Instructions: React.FC<{
             rel="noopener noreferrer"
           >
             <FaGithub size={30} />
-          </a>
+{/*           </a>
           <a
             title="Slack"
             href="https://join.slack.com/t/webapp-wcy5131/shared_invite/zt-2runcy9c6-SXzslGxHDBsAS89hKOkOZQ"
@@ -127,7 +127,7 @@ const Instructions: React.FC<{
             className="slack-icon"
           >
             <FaSlack size={30} />
-          </a>
+          </a> */}
         </div>
       </div>
     </CSSTransition>
