@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import { FaGithub, FaSlack } from 'react-icons/fa';
+// import { FaGithub, FaSlack } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import Button from '@mui/material/Button';
 
 import Navbar from '../components/Navbar';
@@ -118,8 +119,8 @@ const Instructions: React.FC<{
             rel="noopener noreferrer"
           >
             <FaGithub size={30} />
-{/*           </a>
-          <a
+        </a>
+{/*       <a
             title="Slack"
             href="https://join.slack.com/t/webapp-wcy5131/shared_invite/zt-2runcy9c6-SXzslGxHDBsAS89hKOkOZQ"
             target="_blank"
