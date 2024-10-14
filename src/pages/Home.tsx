@@ -106,11 +106,11 @@ const Instructions: React.FC<{
           <br />
           ユーザーや攻撃データはクリックすることで削除可能です．
         </p>
-        <p>
+{/*         <p>
           <strong>また，webアプリなどの開発に興味ある方を募集中です．</strong>
           <br />
           まだほぼ人はいませんが，興味ある方はSlackに参加してもらえると喜びます．
-        </p>
+        </p> */}
         <div className="github-icon">
           <a
             title="GitHub"
