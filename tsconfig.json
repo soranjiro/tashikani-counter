@@ -18,5 +18,5 @@
     "typeRoots": ["./node_modules/@types", "./"],
     "types": ["react-vis-network"]
   },
-  "include": ["src", "react-vis-network.d.ts", "NotFound.tsx"]
+  "include": ["src", "backend", "react-vis-network.d.ts", "NotFound.tsx"]
 }
